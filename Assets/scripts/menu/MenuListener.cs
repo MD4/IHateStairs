@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class MenuListener : MonoBehaviour
 {
+
+
   public void OnClick(string name)
   {
     Debug.Log(name + " clicked");
