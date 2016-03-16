@@ -29,3 +29,11 @@ obj/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+Assets/Standard Assets
+Assets/Elementals
+Assets/Editor
+
+Standard Assets.meta
+Elementals.meta
+Editor.meta
