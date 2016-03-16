@@ -116,7 +116,871 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack_sword
+      takeName: attack_sword
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: help
+      takeName: help
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: -1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_sword
+      takeName: idle_sword
+      firstFrame: -1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: none_001
+      takeName: none_001
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/leg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L
+        weight: 1
+      - path: Armature/control/leg_L/foreleg_L/foot_L
+        weight: 1
+      - path: Armature/control/leg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R
+        weight: 1
+      - path: Armature/control/leg_R/foreleg_R/foot_R
+        weight: 1
+      - path: Armature/control/torso
+        weight: 1
+      - path: Armature/control/torso/arm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger11_L/finger12_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger21_L/finger22_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger31_L/finger32_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger41_L/finger42_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/finger51_L/finger52_L
+        weight: 1
+      - path: Armature/control/torso/arm_L/forearm_L/hand_L/item_L
+        weight: 1
+      - path: Armature/control/torso/arm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger11_R/finger12_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger21_R/finger22_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger31_R/finger32_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger41_R/finger42_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/finger51_R/finger52_R
+        weight: 1
+      - path: Armature/control/torso/arm_R/forearm_R/hand_R/item_R
+        weight: 1
+      - path: Armature/control/torso/head
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
