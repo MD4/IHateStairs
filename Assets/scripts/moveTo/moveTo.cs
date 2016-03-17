@@ -17,5 +17,15 @@ public class moveTo : MonoBehaviour {
     void Update() {
        	agent.destination = goal.position;
 		animator.SetBool("walk", true);
+		//float distance = Vector3.Distance(transform.position, goal.transform.position);
+		var heading = transform.position - goal.transform.position;
+		var distance = heading.magnitude;
+		if (distance > attackDistance) {
+			Debug.Log(distance);
+			animator.SetBool("walk", true);
+		} else {
+			Debug.Log(distance);
+			animator.SetBool("walk", false);
+		}
     }
 }
