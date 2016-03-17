@@ -15,7 +15,7 @@ public class attach_sword : MonoBehaviour {
 	void Update () {
         sword.transform.parent = bone.transform;
         sword.transform.localPosition = Vector3.zero;
-        sword.transform.localRotation = Quaternion.identity;
+        sword.transform.localRotation = Quaternion.Euler(0, 0, 90);
         //var someTransform = sword.transform;
         //sword.parent = bone;
         //sword.localPosition = Vector3.zero;
