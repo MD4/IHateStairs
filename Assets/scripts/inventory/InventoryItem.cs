@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [System.Serializable]
-public class InventoryItem
+public class InventoryItem: IEquatable<InventoryItem>
 {
   public int ItemId { get; set; }
   public string Name { get; set; }
@@ -28,5 +29,11 @@ public class InventoryItem
 
   public InventoryItem()
   {
+    ItemId = -1;
+  }
+
+  public bool Equals(InventoryItem other)
+  {
+    return other.ItemId == this.ItemId;
   }
 }

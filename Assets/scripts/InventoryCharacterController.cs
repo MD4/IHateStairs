@@ -8,12 +8,16 @@ public class InventoryCharacterController : MonoBehaviour
   // Use this for initialization
   void Start()
   {
+    Inventory.AddItem(0);
+    Inventory.AddItem(1);
+    Inventory.AddItem(1);
+    Inventory.AddItem(0);
+    Inventory.AddItem(1);
+    Inventory.AddItem(1);
   }
 
   // Update is called once per frame
   void Update()
   {
-    Inventory.AddItem(0);
-    Inventory.AddItem(1);
   }
 }

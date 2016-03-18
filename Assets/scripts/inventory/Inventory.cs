@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
@@ -19,6 +20,7 @@ public class Inventory : MonoBehaviour
       {
         GameObject gameObject = Instantiate(slots);
         gameObjects.Add(gameObject);
+        itemObjects.Add(new InventoryItem());
         gameObject.transform.SetParent(this.gameObject.transform);
         gameObject.GetComponent<RectTransform>().localPosition = new Vector3(x, y, 0);
         gameObject.name = "Slot " + i + "." + j;
@@ -32,26 +34,48 @@ public class Inventory : MonoBehaviour
     }
   }
 
+  private int getFreeSlotsCount()
+  {
+    var freeSlotsCount = itemObjects.FindAll(item => item.ItemId == -1).Count;
+    Debug.Log("free slots: " + freeSlotsCount);
+    return freeSlotsCount;
+  }
+
+  private int getFirstFreeSlotIndex()
+  {
+    int firstFreeSlotIndex = itemObjects.IndexOf(new InventoryItem());
+    Debug.Log("firstFreeSlotIndex = " + firstFreeSlotIndex);
+    return firstFreeSlotIndex;
+  }
+
   public void AddItem(int id)
   {
-    if (itemObjects.Count < 8)
+    if (getFreeSlotsCount() > 0)
     {
-      Debug.Log("itemObjects.Count = " + itemObjects.Count);
-      Debug.Log("DataBase.Count = " + DataBase.Items.Count);
-      Debug.Log("Looking for " + id);
-      var tmp = DataBase.Items.Find(item => item.ItemId == id);
-      if (tmp != null)
-      {
-        itemObjects.Add(tmp);
-        gameObjects[itemObjects.Count - 1].GetComponent<ItemController>().Item = tmp;
-      }
+      int index = getFirstFreeSlotIndex();
+      itemObjects.RemoveAt(index);
+      var inventoryItem = DataBase.Items.Find(item => item.ItemId == id);
+      Debug.Log("Inserting " + inventoryItem.ItemId + " at " + index);
+      itemObjects.Insert(index, inventoryItem);
+      gameObjects[index].GetComponent<ItemController>().Item = inventoryItem;
     }
   }
 
-  public void Remove(InventoryItem item)
+  public void Remove(string item)
   {
-    var index = itemObjects.IndexOf(item);
+    item = item.Substring(5);
+
+    int index = flatten(item);
+
+    Debug.Log("Removing " + item + " at index " + index);
     gameObjects[index].GetComponent<ItemController>().Item = null;
     itemObjects.RemoveAt(index);
+  }
+
+  private int flatten(string indexs)
+  {
+    int i = indexs[0] - '0';
+    int j = indexs[2] - '0';
+    return i*4 + j;
   }
 }

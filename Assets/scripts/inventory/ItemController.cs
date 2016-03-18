@@ -32,11 +32,6 @@ public class ItemController : MonoBehaviour, IPointerClickHandler, IPointerEnter
     }
   }
 
-  public void Hello()
-  {
-    Debug.Log("Hello " + transform.name);
-  }
-
   public void OnPointerEnter(PointerEventData eventData)
   {
     Debug.Log("Entered");
@@ -45,14 +40,14 @@ public class ItemController : MonoBehaviour, IPointerClickHandler, IPointerEnter
   public void OnPointerClick(PointerEventData eventData)
   {
     Debug.Log("Clicked" + transform.name);
-    if (_item.Type == InventoryItem.ItemType.Consumable)
+    if (_item != null && _item.Type == InventoryItem.ItemType.Consumable)
     {
       if (_item.Name == "potion-item")
       {
         playerHealth.TakeHeal(20);
       }
 
-      inventory.Remove(_item);
+      inventory.Remove(transform.name);
     }
   }
 
