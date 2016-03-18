@@ -62,6 +62,7 @@ public class move : MonoBehaviour {
 	}
 
 	void at ()  {
+		Debug.Log("boom");
 		foreach(var ennemy in ennemyList) {
 			ennemy.TakeDamage(damage);
 			playerAudio.clip = attackClip;

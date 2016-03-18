@@ -14,7 +14,7 @@ public class SwordCollider : MonoBehaviour {
 	
 	void OnTriggerEnter (Collider col)
     {
-        if(col.gameObject && col.gameObject.name == "dragon") {
+        if(col.gameObject && (col.gameObject.name == "dragon" || col.gameObject.name == "minotaure")) {
         	EnemyHealth enemyHealth = col.gameObject.GetComponent <EnemyHealth> ();
          	m.ennemyList.Add(enemyHealth);
          	Debug.Log("enter");

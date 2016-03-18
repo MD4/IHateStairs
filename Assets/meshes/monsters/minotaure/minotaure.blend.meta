@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 0e5186c9457ee6543908a377ed2f19ff
+timeCreated: 1458310976
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm01-l
+    100002: arm01-r
+    100004: arm02-l
+    100006: arm02-r
+    100008: arm03-l
+    100010: arm03-r
+    100012: Armature
+    100014: Cube
+    100016: finger0101-l
+    100018: finger0101-r
+    100020: finger0102-l
+    100022: finger0102-r
+    100024: finger0201-l
+    100026: finger0201-r
+    100028: finger0202-l
+    100030: finger0202-r
+    100032: finger0301-l
+    100034: finger0301-r
+    100036: finger0302-l
+    100038: finger0302-r
+    100040: finger0401-l
+    100042: finger0401-r
+    100044: finger0402-l
+    100046: finger0402-r
+    100048: finger0501-l
+    100050: finger0501-r
+    100052: finger0502-l
+    100054: finger0502-r
+    100056: hand-l
+    100058: hand-r
+    100060: head
+    100062: leg01-l
+    100064: leg01-r
+    100066: leg02-l
+    100068: leg02-r
+    100070: leg03-l
+    100072: leg03-r
+    100074: main
+    100076: //RootNode
+    100078: queue01
+    100080: queue02
+    100082: queue03
+    400000: arm01-l
+    400002: arm01-r
+    400004: arm02-l
+    400006: arm02-r
+    400008: arm03-l
+    400010: arm03-r
+    400012: Armature
+    400014: Cube
+    400016: finger0101-l
+    400018: finger0101-r
+    400020: finger0102-l
+    400022: finger0102-r
+    400024: finger0201-l
+    400026: finger0201-r
+    400028: finger0202-l
+    400030: finger0202-r
+    400032: finger0301-l
+    400034: finger0301-r
+    400036: finger0302-l
+    400038: finger0302-r
+    400040: finger0401-l
+    400042: finger0401-r
+    400044: finger0402-l
+    400046: finger0402-r
+    400048: finger0501-l
+    400050: finger0501-r
+    400052: finger0502-l
+    400054: finger0502-r
+    400056: hand-l
+    400058: hand-r
+    400060: head
+    400062: leg01-l
+    400064: leg01-r
+    400066: leg02-l
+    400068: leg02-r
+    400070: leg03-l
+    400072: leg03-r
+    400074: main
+    400076: //RootNode
+    400078: queue01
+    400080: queue02
+    400082: queue03
+    4300000: Cube
+    7400000: Default Take
+    7400002: Minotaure_Attack
+    7400004: Minotaure_die
+    7400006: Minotaure_Walk2
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/leg01-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l/leg03-l
+        weight: 1
+      - path: Armature/leg01-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r/leg03-r
+        weight: 1
+      - path: Armature/main
+        weight: 1
+      - path: Armature/main/arm01-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l/finger0102-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l/finger0202-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l/finger0302-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l/finger0402-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l/finger0502-l
+        weight: 1
+      - path: Armature/main/arm01-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r/finger0102-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r/finger0202-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r/finger0302-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r/finger0402-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r/finger0502-r
+        weight: 1
+      - path: Armature/main/head
+        weight: 1
+      - path: Armature/queue01
+        weight: 1
+      - path: Armature/queue01/queue02
+        weight: 1
+      - path: Armature/queue01/queue02/queue03
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Minotaure_Attack
+      takeName: Minotaure_Attack
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/leg01-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l/leg03-l
+        weight: 1
+      - path: Armature/leg01-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r/leg03-r
+        weight: 1
+      - path: Armature/main
+        weight: 1
+      - path: Armature/main/arm01-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l/finger0102-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l/finger0202-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l/finger0302-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l/finger0402-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l/finger0502-l
+        weight: 1
+      - path: Armature/main/arm01-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r/finger0102-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r/finger0202-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r/finger0302-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r/finger0402-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r/finger0502-r
+        weight: 1
+      - path: Armature/main/head
+        weight: 1
+      - path: Armature/queue01
+        weight: 1
+      - path: Armature/queue01/queue02
+        weight: 1
+      - path: Armature/queue01/queue02/queue03
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Minotaure_die
+      takeName: Minotaure_die
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/leg01-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l/leg03-l
+        weight: 1
+      - path: Armature/leg01-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r/leg03-r
+        weight: 1
+      - path: Armature/main
+        weight: 1
+      - path: Armature/main/arm01-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l/finger0102-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l/finger0202-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l/finger0302-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l/finger0402-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l/finger0502-l
+        weight: 1
+      - path: Armature/main/arm01-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r/finger0102-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r/finger0202-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r/finger0302-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r/finger0402-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r/finger0502-r
+        weight: 1
+      - path: Armature/main/head
+        weight: 1
+      - path: Armature/queue01
+        weight: 1
+      - path: Armature/queue01/queue02
+        weight: 1
+      - path: Armature/queue01/queue02/queue03
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Minotaure_Walk2
+      takeName: Minotaure_Walk2
+      firstFrame: -1
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/leg01-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l
+        weight: 1
+      - path: Armature/leg01-l/leg02-l/leg03-l
+        weight: 1
+      - path: Armature/leg01-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r
+        weight: 1
+      - path: Armature/leg01-r/leg02-r/leg03-r
+        weight: 1
+      - path: Armature/main
+        weight: 1
+      - path: Armature/main/arm01-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0101-l/finger0102-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0201-l/finger0202-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0301-l/finger0302-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0401-l/finger0402-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l
+        weight: 1
+      - path: Armature/main/arm01-l/arm02-l/arm03-l/hand-l/finger0501-l/finger0502-l
+        weight: 1
+      - path: Armature/main/arm01-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0101-r/finger0102-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0201-r/finger0202-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0301-r/finger0302-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0401-r/finger0402-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r
+        weight: 1
+      - path: Armature/main/arm01-r/arm02-r/arm03-r/hand-r/finger0501-r/finger0502-r
+        weight: 1
+      - path: Armature/main/head
+        weight: 1
+      - path: Armature/queue01
+        weight: 1
+      - path: Armature/queue01/queue02
+        weight: 1
+      - path: Armature/queue01/queue02/queue03
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
