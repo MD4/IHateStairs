@@ -49,10 +49,6 @@ public class ItemController : MonoBehaviour, IPointerClickHandler, IPointerEnter
 
       inventory.Remove(transform.name);
     }
-    else
-    {
-      Application.LoadLevel("room2");
-    }
   }
 
   public InventoryItem Item
