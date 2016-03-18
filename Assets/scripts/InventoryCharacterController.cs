@@ -4,7 +4,7 @@ using System.Collections;
 public class InventoryCharacterController : MonoBehaviour
 {
   public Inventory Inventory;
-  private bool filled = false;
+  private static bool filled = false;
   // Use this for initialization
   void Start()
   {

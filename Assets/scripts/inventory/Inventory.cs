@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Inventory : MonoBehaviour
 {
   public List<GameObject> gameObjects = new List<GameObject>();
-  public List<InventoryItem> itemObjects = new List<InventoryItem>();
+  public static List<InventoryItem> itemObjects = new List<InventoryItem>();
   public InventoryDataBase DataBase;
   public GameObject slots;
   private int x = -83;
@@ -20,10 +20,19 @@ public class Inventory : MonoBehaviour
       {
         GameObject gameObject = Instantiate(slots);
         gameObjects.Add(gameObject);
-        itemObjects.Add(new InventoryItem());
         gameObject.transform.SetParent(this.gameObject.transform);
         gameObject.GetComponent<RectTransform>().localPosition = new Vector3(x, y, 0);
         gameObject.name = "Slot " + i + "." + j;
+        if (itemObjects.Count < 8)
+        {
+          Debug.Log("New basic item");
+          itemObjects.Add(new InventoryItem());
+        }
+        else
+        {
+          Debug.Log("restoring [" + (i*4 + j) + "]" + itemObjects[i*4 + j].ItemId);
+          gameObject.GetComponent<ItemController>().Item = itemObjects[i*4 + j];
+        }
         x += 55;
         if (j == 3)
         {
@@ -36,16 +45,13 @@ public class Inventory : MonoBehaviour
 
   private int getFreeSlotsCount()
   {
-    Debug.Log("getFreeSlotsCount : " + itemObjects.Count);
     var freeSlotsCount = itemObjects.FindAll(item => item.ItemId == -1).Count;
-    Debug.Log("free slots: " + freeSlotsCount);
     return freeSlotsCount;
   }
 
   private int getFirstFreeSlotIndex()
   {
     int firstFreeSlotIndex = itemObjects.IndexOf(new InventoryItem());
-    Debug.Log("firstFreeSlotIndex = " + firstFreeSlotIndex);
     return firstFreeSlotIndex;
   }
 
@@ -56,7 +62,6 @@ public class Inventory : MonoBehaviour
       int index = getFirstFreeSlotIndex();
       itemObjects.RemoveAt(index);
       var inventoryItem = DataBase.Items.Find(item => item.ItemId == id);
-      Debug.Log("Inserting " + inventoryItem.ItemId + " at " + index);
       itemObjects.Insert(index, inventoryItem);
       gameObjects[index].GetComponent<ItemController>().Item = inventoryItem;
     }
@@ -68,9 +73,9 @@ public class Inventory : MonoBehaviour
 
     int index = flatten(item);
 
-    Debug.Log("Removing " + item + " at index " + index);
     gameObjects[index].GetComponent<ItemController>().Item = null;
     itemObjects.RemoveAt(index);
+    itemObjects.Insert(index, new InventoryItem());
   }
 
   private int flatten(string indexs)
