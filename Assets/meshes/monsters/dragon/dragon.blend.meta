@@ -185,7 +185,907 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/legBack1-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l/footBack-l
+        weight: 1
+      - path: Armature/control/legBack1-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r/footBack-r
+        weight: 1
+      - path: Armature/control/main
+        weight: 1
+      - path: Armature/control/main/aile1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l/aileFin2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l/aileFin6-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l/aileFin10-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l/aileFin13-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l/aileFin15-l
+        weight: 1
+      - path: Armature/control/main/aile1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r/aileFin2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r/aileFin6-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r/aileFin10-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r/aileFin13-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r/aileFin15-r
+        weight: 1
+      - path: Armature/control/main/leg1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/finger4-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger3-l
+        weight: 1
+      - path: Armature/control/main/leg1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/finger4-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger3-r
+        weight: 1
+      - path: Armature/control/main/neck1
+        weight: 1
+      - path: Armature/control/main/neck1/neck2
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireBot
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireTop
+        weight: 1
+      - path: Armature/control/queue1
+        weight: 1
+      - path: Armature/control/queue1/queue2
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-l
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-r
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/legBack1-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l/footBack-l
+        weight: 1
+      - path: Armature/control/legBack1-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r/footBack-r
+        weight: 1
+      - path: Armature/control/main
+        weight: 1
+      - path: Armature/control/main/aile1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l/aileFin2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l/aileFin6-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l/aileFin10-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l/aileFin13-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l/aileFin15-l
+        weight: 1
+      - path: Armature/control/main/aile1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r/aileFin2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r/aileFin6-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r/aileFin10-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r/aileFin13-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r/aileFin15-r
+        weight: 1
+      - path: Armature/control/main/leg1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/finger4-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger3-l
+        weight: 1
+      - path: Armature/control/main/leg1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/finger4-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger3-r
+        weight: 1
+      - path: Armature/control/main/neck1
+        weight: 1
+      - path: Armature/control/main/neck1/neck2
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireBot
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireTop
+        weight: 1
+      - path: Armature/control/queue1
+        weight: 1
+      - path: Armature/control/queue1/queue2
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-l
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-r
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dragon_die
+      takeName: dragon_die
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/legBack1-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l/footBack-l
+        weight: 1
+      - path: Armature/control/legBack1-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r/footBack-r
+        weight: 1
+      - path: Armature/control/main
+        weight: 1
+      - path: Armature/control/main/aile1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l/aileFin2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l/aileFin6-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l/aileFin10-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l/aileFin13-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l/aileFin15-l
+        weight: 1
+      - path: Armature/control/main/aile1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r/aileFin2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r/aileFin6-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r/aileFin10-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r/aileFin13-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r/aileFin15-r
+        weight: 1
+      - path: Armature/control/main/leg1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/finger4-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger3-l
+        weight: 1
+      - path: Armature/control/main/leg1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/finger4-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger3-r
+        weight: 1
+      - path: Armature/control/main/neck1
+        weight: 1
+      - path: Armature/control/main/neck1/neck2
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireBot
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireTop
+        weight: 1
+      - path: Armature/control/queue1
+        weight: 1
+      - path: Armature/control/queue1/queue2
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-l
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-r
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Morsure
+      takeName: Morsure
+      firstFrame: -1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/legBack1-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l/footBack-l
+        weight: 1
+      - path: Armature/control/legBack1-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r/footBack-r
+        weight: 1
+      - path: Armature/control/main
+        weight: 1
+      - path: Armature/control/main/aile1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l/aileFin2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l/aileFin6-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l/aileFin10-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l/aileFin13-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l/aileFin15-l
+        weight: 1
+      - path: Armature/control/main/aile1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r/aileFin2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r/aileFin6-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r/aileFin10-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r/aileFin13-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r/aileFin15-r
+        weight: 1
+      - path: Armature/control/main/leg1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/finger4-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger3-l
+        weight: 1
+      - path: Armature/control/main/leg1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/finger4-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger3-r
+        weight: 1
+      - path: Armature/control/main/neck1
+        weight: 1
+      - path: Armature/control/main/neck1/neck2
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireBot
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireTop
+        weight: 1
+      - path: Armature/control/queue1
+        weight: 1
+      - path: Armature/control/queue1/queue2
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-l
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-r
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/control
+        weight: 1
+      - path: Armature/control/legBack1-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l
+        weight: 1
+      - path: Armature/control/legBack1-l/legBack2-l/legback3-l/footBack-l
+        weight: 1
+      - path: Armature/control/legBack1-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r
+        weight: 1
+      - path: Armature/control/legBack1-r/legBack2-r/legback3-r/footBack-r
+        weight: 1
+      - path: Armature/control/main
+        weight: 1
+      - path: Armature/control/main/aile1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin1-l/aileFin2-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin3-l/aileFin4-l/aileFin5-l/aileFin6-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin7-l/aileFin8-l/aileFin9-l/aileFin10-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin11-l/aileFin12-l/aileFin13-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l
+        weight: 1
+      - path: Armature/control/main/aile1-l/aile2-l/aile3-l/aileFin14-l/aileFin15-l
+        weight: 1
+      - path: Armature/control/main/aile1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin1-r/aileFin2-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin3-r/aileFin4-r/aileFin5-r/aileFin6-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin7-r/aileFin8-r/aileFin9-r/aileFin10-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin11-r/aileFin12-r/aileFin13-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r
+        weight: 1
+      - path: Armature/control/main/aile1-r/aile2-r/aile3-r/aileFin14-r/aileFin15-r
+        weight: 1
+      - path: Armature/control/main/leg1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/finger4-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger1-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger2-l
+        weight: 1
+      - path: Armature/control/main/leg1-l/leg2-l/foot-l/finger3-l
+        weight: 1
+      - path: Armature/control/main/leg1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/finger4-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger1-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger2-r
+        weight: 1
+      - path: Armature/control/main/leg1-r/leg2-r/foot-r/finger3-r
+        weight: 1
+      - path: Armature/control/main/neck1
+        weight: 1
+      - path: Armature/control/main/neck1/neck2
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireBot
+        weight: 1
+      - path: Armature/control/main/neck1/neck2/neck3/head/machoireTop
+        weight: 1
+      - path: Armature/control/queue1
+        weight: 1
+      - path: Armature/control/queue1/queue2
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-l
+        weight: 1
+      - path: Armature/control/queue1/queue2/queue3/queue4/queue5/queueFin-r
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using UnityEngine.UI;
 
 public class move : MonoBehaviour {
 
@@ -17,11 +19,14 @@ public class move : MonoBehaviour {
 	public int damage = 50;
 
 	public List<EnemyHealth> ennemyList;
+	public AudioClip attackClip;
+	AudioSource playerAudio;
 
 	// Use this for initialization
 	void Start () {
 		this.characterController = gameObject.GetComponent<CharacterController> ();
 		ennemyList = new List<EnemyHealth>();
+		playerAudio = GetComponent<AudioSource>();
 	}
 
 	// Update is called once per frame
@@ -59,6 +64,8 @@ public class move : MonoBehaviour {
 	void at ()  {
 		foreach(var ennemy in ennemyList) {
 			ennemy.TakeDamage(damage);
+			playerAudio.clip = attackClip;
+    		playerAudio.Play();
 		}
 		b = true;
 	}
