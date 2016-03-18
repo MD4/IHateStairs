@@ -17,6 +17,9 @@ public class teleport : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        Application.LoadLevel(nextSceneName);
+        if (col.gameObject.name == "helmet")
+        {
+            Application.LoadLevel(nextSceneName);
+        }
     }
 }
