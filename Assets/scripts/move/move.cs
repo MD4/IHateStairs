@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class move : MonoBehaviour {
 
@@ -12,10 +13,15 @@ public class move : MonoBehaviour {
 	public CharacterController characterController;
 	public Animator animator;
 	public float angle;
+	private bool b = false;
+	public int damage = 50;
+
+	public List<EnemyHealth> ennemyList;
 
 	// Use this for initialization
 	void Start () {
 		this.characterController = gameObject.GetComponent<CharacterController> ();
+		ennemyList = new List<EnemyHealth>();
 	}
 
 	// Update is called once per frame
@@ -38,5 +44,22 @@ public class move : MonoBehaviour {
 		float attack = Input.GetAxis("Fire1");
 
 		animator.SetInteger ("attacking", (attack != 0) ? 1 : 0);
+		if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("attack_sword")) {
+			if (b == false)
+				at();
+		}
+		if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("idle_sword")) {
+			b = false;
+		}
+		if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("walk")) {
+			b = false;
+		}
+	}
+
+	void at ()  {
+		foreach(var ennemy in ennemyList) {
+			ennemy.TakeDamage(damage);
+		}
+		b = true;
 	}
 }
