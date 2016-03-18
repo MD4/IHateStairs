@@ -36,6 +36,7 @@ public class Inventory : MonoBehaviour
 
   private int getFreeSlotsCount()
   {
+    Debug.Log("getFreeSlotsCount : " + itemObjects.Count);
     var freeSlotsCount = itemObjects.FindAll(item => item.ItemId == -1).Count;
     Debug.Log("free slots: " + freeSlotsCount);
     return freeSlotsCount;

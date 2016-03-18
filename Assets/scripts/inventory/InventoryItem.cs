@@ -34,6 +34,7 @@ public class InventoryItem: IEquatable<InventoryItem>
 
   public bool Equals(InventoryItem other)
   {
+    Debug.Log("comparing " + other.ItemId + " with " + ItemId);
     return other.ItemId == this.ItemId;
   }
 }
