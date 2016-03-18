@@ -8,10 +8,12 @@ public class moveTo : MonoBehaviour {
 	public float attackDistance;
 
 	private NavMeshAgent agent;
+	private EnemyAttack attack;
 
 	void Start () {
 	  animator = GetComponent<Animator>();
       agent = GetComponent<NavMeshAgent>();
+      attack = GetComponent <EnemyAttack> ();
     }
 
     void Update() {
@@ -19,12 +21,13 @@ public class moveTo : MonoBehaviour {
 		animator.SetBool("walk", true);
 		float distance = Vector3.Distance(transform.position, goal.transform.position);
 		if (distance > attackDistance) {
-			Debug.Log(distance);
 			animator.SetBool("walk", true);
+			attack.playerInRange = false;
 		} else {
-			Debug.Log(distance);
 			animator.SetBool("walk", false);
 			agent.destination = transform.position;
+			attack.playerInRange = true;
+
 		}
     }
 }
