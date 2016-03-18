@@ -34,6 +34,7 @@ public class EnemyHealth : MonoBehaviour {
 
         // Reduce the current health by the damage amount.
         currentHealth -= amount;
+        Debug.Log("hit");
 
         // Set the health bar's value to the current health.
         //healthSlider.value = currentHealth;

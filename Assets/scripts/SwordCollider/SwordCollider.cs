@@ -17,6 +17,7 @@ public class SwordCollider : MonoBehaviour {
         if(col.gameObject && col.gameObject.name == "dragon") {
         	EnemyHealth enemyHealth = col.gameObject.GetComponent <EnemyHealth> ();
          	m.ennemyList.Add(enemyHealth);
+         	Debug.Log("enter");
         }
     }
 
@@ -25,6 +26,7 @@ public class SwordCollider : MonoBehaviour {
 	    if(col.gameObject && col.gameObject.name == "dragon") {
         	EnemyHealth enemyHealth = col.gameObject.GetComponent <EnemyHealth> ();
         	m.ennemyList.Remove(enemyHealth);
+        	Debug.Log("exit");
         }
 	}
 }
