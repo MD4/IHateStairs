@@ -162,6 +162,7 @@ ModelImporter:
     7400002: ArmatureAction
     7400004: Morsure
     7400006: Walk
+    7400008: dragon_die
     9500000: //RootNode
     13700000: Cube
   materials:
