@@ -21,7 +21,7 @@ public class ItemController : MonoBehaviour, IPointerClickHandler, IPointerEnter
   // Update is called once per frame
   void Update()
   {
-    if (_item != null)
+    if (_item != null && _item.ItemId != -1)
     {
       _itemImage.enabled = true;
       _itemImage.sprite = _item.ItemIcon;
@@ -40,7 +40,7 @@ public class ItemController : MonoBehaviour, IPointerClickHandler, IPointerEnter
   public void OnPointerClick(PointerEventData eventData)
   {
     Debug.Log("Clicked" + transform.name);
-    if (_item != null && _item.Type == InventoryItem.ItemType.Consumable)
+    if (_item != null && _item.ItemId != -1 &&_item.Type == InventoryItem.ItemType.Consumable)
     {
       if (_item.Name == "potion-item")
       {
