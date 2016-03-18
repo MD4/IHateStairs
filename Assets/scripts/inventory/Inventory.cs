@@ -14,7 +14,6 @@ public class Inventory : MonoBehaviour
   // Use this for initialization
   void Start()
   {
-    Debug.Log("DataBase.Length  " + DataBase.Items.Count);
 
     for (var i = 0; i < 2; i++)
     {
@@ -35,6 +34,8 @@ public class Inventory : MonoBehaviour
     }
 
     AddItem(0);
+    AddItem(0);
+    AddItem(0);
   }
 
   void AddItem(int id)
@@ -45,7 +46,7 @@ public class Inventory : MonoBehaviour
       if (tmp != null)
       {
         itemObjects.Add(tmp);
-        gameObjects[id].GetComponent<ItemController>().Item = tmp;
+        gameObjects[itemObjects.Count - 1].GetComponent<ItemController>().Item = tmp;
       }
     }
   }
