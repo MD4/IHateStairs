@@ -9,18 +9,20 @@ public class moveTo : MonoBehaviour {
 
 	private NavMeshAgent agent;
 	private EnemyAttack attack;
+	private EnemyHealth health;
 
 	void Start () {
 	  animator = GetComponent<Animator>();
       agent = GetComponent<NavMeshAgent>();
       attack = GetComponent <EnemyAttack> ();
+      health = GetComponent <EnemyHealth> ();
     }
 
     void Update() {
        	agent.destination = goal.position;
 		animator.SetBool("walk", true);
 		float distance = Vector3.Distance(transform.position, goal.transform.position);
-		if (distance > attackDistance) {
+		if (distance > attackDistance && !(health.currentHealth <= 0)) {
 			animator.SetBool("walk", true);
 			attack.playerInRange = false;
 		} else {

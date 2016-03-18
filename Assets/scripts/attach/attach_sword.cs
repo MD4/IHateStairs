@@ -5,21 +5,18 @@ public class attach_sword : MonoBehaviour {
 
     public GameObject sword;
     public GameObject bone;
+    public bool hasSword = false;
 
-    // Use this for initialization
     void Start () {
 	    
 	}
 	
-	// Update is called once per frame
 	void Update () {
-        sword.transform.parent = bone.transform;
-        sword.transform.localPosition = Vector3.zero;
-        sword.transform.localRotation = Quaternion.Euler(0, 0, 90);
-        //var someTransform = sword.transform;
-        //sword.parent = bone;
-        //sword.localPosition = Vector3.zero;
-        //sword.localRotation = Quaternion.identity;
-        //sword.localScale = Vector3.one;
+        if (hasSword)
+        {
+            sword.transform.parent = bone.transform;
+            sword.transform.localPosition = Vector3.zero;
+            sword.transform.localRotation = Quaternion.Euler(0, 0, 90);
+        }
     }
 }
