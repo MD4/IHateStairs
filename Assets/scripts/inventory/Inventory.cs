@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
@@ -14,7 +13,6 @@ public class Inventory : MonoBehaviour
   // Use this for initialization
   void Start()
   {
-
     for (var i = 0; i < 2; i++)
     {
       for (var j = 0; j < 4; j++)
@@ -32,16 +30,15 @@ public class Inventory : MonoBehaviour
         }
       }
     }
-
-    AddItem(0);
-    AddItem(0);
-    AddItem(0);
   }
 
-  void AddItem(int id)
+  public void AddItem(int id)
   {
     if (itemObjects.Count < 8)
     {
+      Debug.Log("itemObjects.Count = " + itemObjects.Count);
+      Debug.Log("DataBase.Count = " + DataBase.Items.Count);
+      Debug.Log("Looking for " + id);
       var tmp = DataBase.Items.Find(item => item.ItemId == id);
       if (tmp != null)
       {
@@ -49,5 +46,12 @@ public class Inventory : MonoBehaviour
         gameObjects[itemObjects.Count - 1].GetComponent<ItemController>().Item = tmp;
       }
     }
+  }
+
+  public void Remove(InventoryItem item)
+  {
+    var index = itemObjects.IndexOf(item);
+    gameObjects[index].GetComponent<ItemController>().Item = null;
+    itemObjects.RemoveAt(index);
   }
 }
