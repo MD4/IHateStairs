@@ -10,7 +10,7 @@ public class MenuListener : MonoBehaviour
     switch (name)
     {
       case "PLAY":
-        Application.LoadLevel("test");
+        Application.LoadLevel("room1");
         break;
       case "OPTIONS":
         break;
